@@ -3,7 +3,8 @@
 ## Introduction
 This project reflects a simulation of the implementation thread pooling tactics. The project utilize a collection of 10 thread that run concurrently read chunk of large file simultaneously.
 
-The scenario behind our model is that we create a process that divide big files ( 10000 + lines) and each line one at the time.
+The scenario behind our model is that we create a process that divide big files ( 10000 + lines) and process each line one at the time.
+It can be used to extract specific keyword at the time but we decide to keep it simple.
 
 ## Technology
 <div align="">
